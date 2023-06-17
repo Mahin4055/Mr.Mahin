@@ -1,0 +1,14 @@
+#NoEnv
+SendMode Input
+
+SetTitleMatchMode, 2
+
+Run, notepad.exe
+WinWait, Untitled - Notepad
+WinActivate
+
+Sleep 500
+
+Send, I am HAKE your pc!
+
+return
